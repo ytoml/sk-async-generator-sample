@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "vscodevim.vim",
+        "donjayamanne.python-extension-pack",
+        "tamasfe.even-better-toml",
+        "yzhang.markdown-all-in-one",
+        "bierner.markdown-preview-github-styles",
+    ]
+}

@@ -1,0 +1,18 @@
+name: Test
+
+on:
+  pull_request:
+    paths-ignore:
+      - "**.py"
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "**.py"
+
+jobs:
+  test-skip:
+    name: Skip Test
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'No changes on python files'
